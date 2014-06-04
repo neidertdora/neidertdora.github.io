@@ -15,9 +15,19 @@
         <link rel="stylesheet" href="css/budapestfly_responsive.css" type="text/css" media="all" />
 
 		<link href='http://fonts.googleapis.com/css?family=Philosopher:400,400italic' rel='stylesheet' type='text/css'>
-    </head>
+        <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>    </head>
 
     <body>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <ul id="menu">
+                    <li><a href="#section-1" class="curtain-links">Home</a></li>
+                    <li><a href="#section-2" class="curtain-links">Bemutatkozás</a></li>
+                    <li><a href="#section-3" class="curtain-links">A gép</a></li>
+                    <li><a href="#section-4" class="curtain-links">Árak</a></li>
+                    <li><a href="#section-5" class="curtain-links">Kapcsolat</a></li>
+                </ul>
+        </nav>
+
         <ol class="curtains">
             <li id="section-1">
                 <header data-fade="550" data-slow-scroll="3">
@@ -25,7 +35,70 @@
                     <h2>+36 70 613 6123</h2>
                 </header>
             </li>
-        </ol>
 
+            <li id="section-2">
+                <div class="fixed">
+                    <article>
+                        <h4>Bemutatkozás</h4>
+                        <p><span>Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Nulla non sapien mi. Phasellus eget nulla fermentum, aliquet diam quis, vehicula metus. Maecenas aliquam elit a sapien vestibulum facilisis.
+                        </p>
+                        <p><span>Donec sollicitudin </span> leo sed commodo volutpat. In placerat tortor a mi euismod semper. Fusce dictum rhoncus commodo. Curabitur cursus elit ligula. Mauris euismod velit ante, id tempus tortor fermentum sit amet.
+                        </p>
+                        <p><span>Nulla eros </span>turpis, mattis at nunc at, feugiat accumsan dui. Ut odio massa, aliquet quis odio eget, convallis lacinia felis. Donec magna lorem, pharetra ac leo quis, rutrum dignissim elit. Nam velit dolor, posuere quis elit mattis, facilisis mollis ipsum. Aliquam fermentum ante accumsan turpis ornare varius. Aenean luctus quam sed eros blandit, eget venenatis magna vehicula.
+                        </p>     
+                    </article>
+                </div>
+            </li>
+
+            <li id="section-3">
+                <div class="fixed">
+                    <article>
+                        <h4>A gép</h4>
+                        <p><span>Etiam </span>vel magna sed sem semper sagittis vehicula at est.</p>
+                        <p><span>Cras</span> id est id sapien vulputate bibendum.</p>
+                        <p><span>Curabitur</span> vitae purus a velit bibendum ornare non vel nisi.í</p>
+                        <p><span>Fusce </span>tincidunt arcu et mauris euismod volutpat.</p>
+                        <p><span>Nullam </span>cursus neque sed lacinia volutpat.</p>
+                    </article>
+                </div>
+            </li>
+
+            <li id="section-4">
+                <div class="fixed">
+                    <article>
+                    <h4>Árak</h4>
+                    <p>Etiam vel magna sed sem semper sagittis vehicula at est.</p>
+                    <p>Cras id est id sapien vulputate bibendum.</p>
+                    <p>Curabitur vitae purus a velit bibendum ornare non vel nisi.í</p>
+                    </article>
+            </li>
+
+            <li id="section-5"  class="cover">
+                <div class="fixed">
+                    <article>
+                    <h4>Kapcsolat</h4>
+                    <p>
+                    <img src="css/image/phone.png">
+                    +36 70 613 6123</p>
+                    <p>
+                    <img src="css/image/email.png">
+                    budapestfly@gmail.com</p>
+                    </article>
+                </div>
+            </li>
+
+            </ol>
+
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+            <script src="js/curtain.js"></script>
+            <script>
+                $(function(){
+                   $('.curtains').curtain({
+                       scrollSpeed: 450,
+                       controls: '.menu',
+                       curtainLinks: '.curtain-links'
+                   });
+                });
+            </script>
     </body>
 </html>
