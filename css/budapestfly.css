@@ -116,8 +116,8 @@ padding-top: 36px;
 }
 
 /* Section 2 */
-#section-2 {
-background:url('image/bemutatkozas.jpg') no-repeat fixed;
+#section-2{
+background:#DBDAD9 url('image/bemutatkozas.jpg') no-repeat fixed;
 -webkit-background-size: 100%; 
 -moz-background-size: 100%; 
 -o-background-size: 100%; 
@@ -130,7 +130,7 @@ background-size: cover;
 
 #section-2 .fixed {
 position: fixed;
-top: 180px;
+top: 30%;
 left: 30%;
 right: 10%;
 z-index:20;
@@ -151,7 +151,7 @@ font-family: 'Philosopher', sans-serif;
 
 /* Section 3 */
 #section-3{
-background:url('image/gep1.jpg') no-repeat fixed;
+background:#DBDAD9 url('image/gep1.jpg') no-repeat fixed;
 -webkit-background-size: 100%; 
 -moz-background-size: 100%; 
 -o-background-size: 100%; 
@@ -164,7 +164,7 @@ background-size: cover
 
 #section-3 .fixed {
 position: fixed;
-top: 180px;
+top: 30%;
 left: 10%;
 right: 30%;
 z-index:20;
@@ -198,7 +198,7 @@ background: #DBDAD9;
 
 #section-4 .fixed {
 position: fixed;
-top: 175px;
+top: 30%;
 left: 30%;
 right: 30%;
 z-index:20;
@@ -218,7 +218,7 @@ background: #DBDAD9;
 
 #section-5 .fixed {
 position: fixed;
-top: 175px;
+top: 30%;
 left: 30%;
 right: 30%;
 z-index:20;
