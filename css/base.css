@@ -1,0 +1,301 @@
+
+/* Curtain.js - Budpestfly */
+
+/* RESET */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+.cf:after {clear:both;}
+.cf { zoom:1;}
+
+/* Base Style */
+body {
+font:16px/1.2 "Helvetica Neue", Arial, Helvetica, sans-serif;
+color:#5B3D49;
+}
+
+h1,h2,h3,h4 {
+font-family: 'Philosopher', sans-serif;
+}
+
+p{margin:1em 0 0 0;}
+
+article{
+font-family: 'Cabin', sans-serif;
+margin:0 auto;
+max-width:600px;
+padding: 24px;
+}
+
+article h1{text-align:center;}
+
+
+/* Sliding panels */
+.curtains>li {
+    box-shadow:0 0 12px #666;
+    background-color: rgb(255,255,255);
+}
+.cover-background {
+    position:fixed;
+    top:0;left:0;
+}
+
+/* Specific */
+
+/*section 1*/
+
+#section-1 {
+background:url('image/Budapest.jpg') 50% 60% no-repeat fixed;
+-webkit-background-size: 100%; 
+-moz-background-size: 100%; 
+-o-background-size: 100%; 
+background-size: 100%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+header {
+color:#EEEEFF;
+position:absolute;
+top:30%;
+left:30%;
+text-align:center;
+text-shadow: 0 4px 4px rgba(0, 0, 0, .5);
+}
+
+#section-1 h1 {
+font-size:6em;
+font-weight:normal;
+}
+
+#section-1 i {
+font-style: italic;
+}
+
+#section-1 h2 {
+opacity:.75;
+font-size:2em;
+font-weight: normal;
+padding-top: 36px;
+}
+
+#section-1 img {
+position: fixed;
+left: 5%;
+top:10%;
+}
+
+/*section 2*/
+
+#section-2 {
+background:#DBDAD9 url('image/sasa2.png') no-repeat fixed;
+-webkit-background-size: 100%; 
+-moz-background-size: 100%; 
+-o-background-size: 100%; 
+background-size: 100%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#section-2 .fixed {
+position: fixed;
+top: 150px;
+left: 5%;
+width: 200px;
+z-index:20;
+text-transform: uppercase;
+font-family: 'Philosopher', sans-serif;
+font-size: 2em;
+text-shadow: 0 4px 4px rgba(0, 0, 0, .5);
+}
+
+#section-2 article {
+margin-top: 10%;
+margin-left: 19%;
+z-index:20;
+background: rgba(194, 193, 189, 0.5);
+}
+
+#section-2 span {
+text-transform: uppercase;
+padding-right: 5px;
+}
+
+/*section 3*/
+
+#section-3 {
+background:#DBDAD9 url('image/gep5.png') no-repeat fixed;
+-webkit-background-size: 100%; 
+-moz-background-size: 100%; 
+-o-background-size: 100%; 
+background-size: 100%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#section-3 .fixed {
+position: fixed;
+top: 150px;
+left: 5%;
+width: 200px;
+z-index:20;
+text-transform: uppercase;
+font-family: 'Philosopher', sans-serif;
+font-size: 2em;
+text-shadow: 0 4px 4px rgba(0, 0, 0, .5);
+}
+
+#section-3 article{
+margin-top:10%;
+margin-left: 40%;
+position:relative;
+z-index:20;
+background: rgba(194, 193, 189, 0.5);
+}
+
+#section-3 span {
+text-transform: uppercase;
+padding-right: 5px;
+}
+
+/*section 4*/
+
+#section-4{
+background: #DBDAD9;
+}
+
+#section-4 h4 {
+position: absolute;
+left: 5%;
+top:130px;
+text-transform: uppercase;
+padding-bottom: 5%;
+font-size: 2em;
+text-shadow: 0 2px 2px rgba(0, 0, 0, .5);
+}
+
+#section-4 article {
+margin-top:5%;
+}
+
+#section-4 table {
+margin-top:5%;
+}
+
+th {
+text-transform: uppercase;
+font-weight: normal;
+padding-bottom: 15px;
+padding-right: 30px;
+width: 2%;
+text-align: right;
+}
+
+td {
+padding-bottom: 15px;
+padding-top: 15px;
+text-align: right;
+padding-right: 30px;
+border-bottom: 1px solid;
+vertical-align: middle;
+}
+
+.first {
+text-align: left;
+}
+
+.step-list {
+margin-top:5%;
+}
+
+/*section 5*/
+
+#section-5 {
+background:#DBDAD9;
+}
+
+#section-5 .fixed {
+position: fixed;
+top: 150px;
+left: 5%;
+width: 200px;
+z-index:20;
+text-transform: uppercase;
+font-family: 'Philosopher', sans-serif;
+font-size: 2em;
+text-shadow: 0 4px 4px rgba(0, 0, 0, .5);
+}
+
+#section-5 article{
+margin-top:10%;
+margin-left: 30%;
+position:relative;
+z-index:20;
+background: rgba(194, 193, 189, 0.5);
+}
+
+#section-5 p {
+padding-right: 5px;
+font-size: 1.5em;
+line-height: 24px;
+text-align: center;
+}
+
+#section-5 img {
+text-align: center;
+}
+/* MENU */
+#menu{
+background-color:rgba(194, 193, 189, 0.5);
+position:fixed;
+z-index:20;
+list-style-type: none;
+width: 100%;
+}
+
+#menu li {
+float: left;
+font-size:18px;
+font-weight: normal;
+text-transform: uppercase;
+padding-right: 24px;
+padding-left: 24px;
+padding-top: 10px;
+padding-bottom: 10px;
+font-family: 'Philosopher', sans-serif;
+}
+
+#menu a {
+margin:0;
+color:#EEEEFF;
+text-decoration: none;
+}
+
+#menu a:hover {
+color:#5A83D2;
+}
+
+#menu a:focus {
+color:#5B3D49;
+outline: none;
+}
+
+#firstmenu {
+margin-left: 45%;
+}
+
+/* STEP BY STEP */
+li.step{margin:1em 0 0 0;}
+
+
