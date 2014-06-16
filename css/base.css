@@ -87,15 +87,15 @@ padding-top: 36px;
 }
 
 #section-1 img {
-position: fixed;
-left: 5%;
-top:10%;
+position: absolute;
+left: -50%;
+top:-90%;
 }
 
 /*section 2*/
 
 #section-2 {
-background:#DBDAD9 url('image/sasa2.png') no-repeat fixed;
+background:#DBDAD9 url('image/sasa3.jpg') no-repeat fixed;
 -webkit-background-size: 100%; 
 -moz-background-size: 100%; 
 -o-background-size: 100%; 
@@ -125,15 +125,10 @@ z-index:20;
 background: rgba(194, 193, 189, 0.5);
 }
 
-#section-2 span {
-text-transform: uppercase;
-padding-right: 5px;
-}
-
 /*section 3*/
 
 #section-3 {
-background:#DBDAD9 url('image/gep5.png') no-repeat fixed;
+background:#DBDAD9 url('image/sasa2.png') no-repeat fixed;
 -webkit-background-size: 100%; 
 -moz-background-size: 100%; 
 -o-background-size: 100%; 
@@ -164,11 +159,6 @@ z-index:20;
 background: rgba(194, 193, 189, 0.5);
 }
 
-#section-3 span {
-text-transform: uppercase;
-padding-right: 5px;
-}
-
 /*section 4*/
 
 #section-4{
@@ -193,6 +183,7 @@ margin-top:5%;
 margin-top:5%;
 }
 
+
 th {
 text-transform: uppercase;
 font-weight: normal;
@@ -213,10 +204,20 @@ vertical-align: middle;
 
 .first {
 text-align: left;
+font-size: 1.2em;
 }
+
+#section-4 span {
+font-size: 0.6em;
+}
+
 
 .step-list {
 margin-top:5%;
+}
+
+#section-4 li {
+list-style-type:circle;
 }
 
 /*section 5*/
