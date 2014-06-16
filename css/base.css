@@ -95,7 +95,7 @@ top:-90%;
 /*section 2*/
 
 #section-2 {
-background:#DBDAD9 url('image/sasa3.jpg') no-repeat fixed;
+background:#DBDAD9 url('image/sasa2.png') no-repeat fixed;
 -webkit-background-size: 100%; 
 -moz-background-size: 100%; 
 -o-background-size: 100%; 
@@ -118,9 +118,10 @@ font-size: 2em;
 text-shadow: 0 4px 4px rgba(0, 0, 0, .5);
 }
 
-#section-2 article {
-margin-top: 10%;
-margin-left: 19%;
+#section-2 article{
+margin-top:10%;
+margin-left: 25%;
+position:relative;
 z-index:20;
 background: rgba(194, 193, 189, 0.5);
 }
@@ -128,7 +129,7 @@ background: rgba(194, 193, 189, 0.5);
 /*section 3*/
 
 #section-3 {
-background:#DBDAD9 url('image/sasa2.png') no-repeat fixed;
+background:#DBDAD9 url('image/sasa3.jpg') no-repeat fixed;
 -webkit-background-size: 100%; 
 -moz-background-size: 100%; 
 -o-background-size: 100%; 
@@ -151,10 +152,9 @@ font-size: 2em;
 text-shadow: 0 4px 4px rgba(0, 0, 0, .5);
 }
 
-#section-3 article{
-margin-top:10%;
-margin-left: 40%;
-position:relative;
+#section-3 article {
+margin-top: 10%;
+margin-left: 19%;
 z-index:20;
 background: rgba(194, 193, 189, 0.5);
 }
@@ -218,6 +218,7 @@ margin-top:5%;
 
 #section-4 li {
 list-style-type:circle;
+margin-left: 15px;
 }
 
 /*section 5*/
