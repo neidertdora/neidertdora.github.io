@@ -89,7 +89,7 @@ padding-top: 36px;
 #section-1 img {
 position: absolute;
 left: -50%;
-top:-90%;
+top:-80%;
 }
 
 /*section 2*/
@@ -295,6 +295,7 @@ outline: none;
 
 #firstmenu {
 margin-left: 45%;
+text-transform: none;
 }
 
 /* STEP BY STEP */
