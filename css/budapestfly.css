@@ -34,6 +34,9 @@ padding: 24px;
 
 article h1{text-align:center;}
 
+.mobil {
+visibility: hidden;
+}
 
 /* Sliding panels */
 .curtains>li {
@@ -46,6 +49,10 @@ article h1{text-align:center;}
 }
 
 /* Specific */
+
+#mobil {
+visibility: hidden;
+}
 
 /*section 1*/
 
@@ -183,6 +190,15 @@ margin-top:5%;
 margin-top:5%;
 }
 
+.firstheading {
+text-align: left;
+font-size: 1em;	
+}
+
+.first {
+text-align: left;
+font-size: 1.2em;
+}
 
 th {
 text-transform: uppercase;
@@ -202,10 +218,6 @@ border-bottom: 1px solid;
 vertical-align: middle;
 }
 
-.first {
-text-align: left;
-font-size: 1.2em;
-}
 
 #section-4 span {
 font-size: 0.6em;

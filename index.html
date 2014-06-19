@@ -7,7 +7,7 @@
     <title>Budapestfly - Sétarepülés, Budapest repülőről, sétarepülés Budpesten, repülős kirándulás Budapesten</title>
     <meta name="author" content="Budapestfly - Sétarepülés, Budapest repülőről, sétarepülés Budpesten, repülős kirándulás Budapesten">
     <meta name="description" content="Budapestfly - Sétarepülés, Budapest repülőről, sétarepülés Budpesten, repülős kirándulás Budapesten">
-    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/budapestfly.css">
     <link rel="stylesheet" href="css/curtain.css">
     <link rel="stylesheet" href="css/budapestfly_responsive.css">
 
@@ -17,12 +17,21 @@
 
 </head>
 <body>
-<ul id="menu">
+<ul id="menu" class="origin">
     <li id="firstmenu"><a href="#section-1" class="curtain-links">BudapestFLY</a></li>
     <li><a href="#section-2" class="curtain-links">A gép</a></li>
     <li><a href="#section-3" class="curtain-links">A pilóta</a></li>
     <li><a href="#section-4" class="curtain-links">Útvonalak</a></li>
     <li><a href="#section-5" class="curtain-links">Kapcsolat</a></li>
+   <!-- <li><a href="#section-5" class="curtain-links">Galéria</a></li>-->
+</ul>
+
+<ul id="menu" class="mobil">
+    <li id="firstmenu"><a href="#section-1" class="curtain-links">BudapestFLY</a></li>
+    <li><a href="gep.html">A gép</a></li>
+    <li><a href="pilota.html">A pilóta</a></li>
+    <li><a href="utvonal.html" class="curtain-links">Útvonalak</a></li>
+    <li><a href="kapcsolat.html" class="curtain-links">Kapcsolat</a></li>
    <!-- <li><a href="#section-5" class="curtain-links">Galéria</a></li>-->
 </ul>
 
@@ -74,7 +83,7 @@
             <table>
                  <thead>
                     <tr>
-                        <th class="first">Útvonal</th>
+                        <th class="firstheading">Útvonal</th>
                         <th>Becsült idő</th>
                         <th>Ár</th>
                     </tr>
@@ -155,6 +164,16 @@
         </article>
     </li>
 </ol>
+
+<div class="mobil">
+        <article id="section-1">
+        <header>
+                <h1>Budapest<i>FLY</i></h1>
+                <h2>Séta a város felett</h2>
+        </header>
+        </article>
+</div>
+
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script src="js/curtain.js"></script>
