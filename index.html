@@ -46,7 +46,7 @@
         </article>
     </li>
 
-    <li id="section-2">
+    <li id="section-2" style="display:none">
         <div class="fixed">
             A gép
         </div>
@@ -57,7 +57,7 @@
         </article>
     </li>
 
-    <li id="section-3">
+    <li id="section-3" style="display:none">
         
         <div class="fixed">
             A pilóta
@@ -74,7 +74,7 @@
 
     </li>
 
-    <li id="section-4">
+    <li id="section-4" style="display:none">
         <article>
             <h4>Útvonalak</h4>
             <ul class="step-list">
@@ -151,7 +151,7 @@
             </ul>
         </article>
     </li>
-    <li id="section-5"  class="cover">
+    <li id="section-5"  style="display:none">
         <div class="fixed">
             Kapcsolat
         </div>
@@ -178,13 +178,15 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script src="js/curtain.js"></script>
 <script>
-    $(function(){
-       $('.curtains').curtain({
-           scrollSpeed: 450,
-           controls: '.menu',
-           curtainLinks: '.curtain-links'
-       });
-    });
+    if( !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        $(function(){
+           $('.curtains').curtain({
+               scrollSpeed: 450,
+               controls: '.menu',
+               curtainLinks: '.curtain-links'
+           });
+        });
+    }
 </script>
 </body>
 </html>
