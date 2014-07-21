@@ -40,28 +40,28 @@ color: #85716A;
 font-family: 'Oxygen', sans-serif;
 }
 
-.navbar-nav li a:hover{
+.nav li a:hover{
 background: none;
 color:#5F8594;
 }
 
-.navbar-nav li a:focus{
+.nav li a:focus{
 background: none;
 color: #85716A;
-border: none;
 border-top: 1px solid #C97229;
 border-bottom: 1px solid #C97229;
 outline: 0;
 }
 
-.navbar-nav li a:active{
+.nav li a:active{
 background: none;
 color: #85716A;
-border: none;
 border-top: 1px solid #C97229;
 border-bottom: 1px solid #C97229;
 outline: 0;
 }
+
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
