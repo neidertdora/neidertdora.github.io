@@ -226,7 +226,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  color: #333333;
+  color: #462814;
   background-color: #ffffff;
 }
 
@@ -1156,7 +1156,7 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus {
-  border-color: rgba(82, 168, 236, 0.8);
+  border-color: rgba(95, 133, 148, 0.8);
   outline: 0;
   outline: thin dotted \9;
   /* IE6-9 */
