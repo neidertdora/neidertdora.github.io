@@ -202,8 +202,8 @@ margin: 0 auto;
 
 label {
 font-family: 'Oxygen', sans-serif;
-font-size: 1.1em;
-padding-top: 36px;
+font-size: 0.8em;
+padding-top: 10px;
 padding-bottom: 10px;
 text-shadow: -3px 4px 5px rgba(69, 45, 44, 0.7);
 color: #85716A;
@@ -225,10 +225,11 @@ vertical-align: middle;
 text-align: center;
 }
 
-.btn-default {
+.btn {
 font-family: 'Oxygen', sans-serif;
-font-size: 1.1em;
+font-size: 1em;
 text-shadow: -3px 4px 5px rgba(69, 45, 44, 0.7);
 color: #452D2C;
 line-height: 36px;
+background: none;
 }
