@@ -12,7 +12,7 @@
       -moz-transform:rotate(-10deg);
       position: absolute;
       width: 250px;
-      top:-200px;
+      bottom: 80px;
       left:75px;
 }
 
