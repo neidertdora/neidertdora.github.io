@@ -358,10 +358,7 @@ ul.service-list li i
     margin: 0 auto 35px;
 }
 .portfolio-item
-{
-    position:relative;
-    overflow:hidden;
-}
+
 .portfolio-item figure
 {
     margin:0;
@@ -683,5 +680,4 @@ body{
 .navbar-default .navbar-nav > li > a{
     line-height: 22px;
     text-align: center;
-}
 }
