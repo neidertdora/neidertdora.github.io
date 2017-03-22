@@ -108,12 +108,12 @@ HEADER
 
 .top-nav-collapse {
     padding: 0; 
-    background: rgba(64,75,97, 0.7);
+    background: rgba(64,75,97, 0.9);
 }
 
 .logo-dec
 {
-    color: #9AAC8A;
+    color: #BFDDE8;
 }
 .navbar-default .navbar-brand {
     color: #fff;
@@ -147,12 +147,12 @@ HEADER
     transition: color 0.2s ease-out;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: #9AAC8A;
+    color: #BFDDE8;
     background-color: transparent;
 }
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
     background-color: transparent;
-    color: #9AAC8A;
+    color: #BFDDE8;
 }
 .banner-info
 {
@@ -204,17 +204,17 @@ h2.bnr-sub-title
 
 .btn-download
 {
-    background-color: #667857;
+    background-color: #8484B6;
 }
 .btn-more, .btn-more:focus
 {
     margin-left: 15px;
-    border: 1px solid #9AAC8A;
-    color: #9AAC8A;
+    border: 1px solid #BFDDE8;
+    color: #BFDDE8;
 }
 
 .btn-more:hover {
-    background: #9AAC8A;
+    background: #BFDDE8;
     color: #fff;
 }
 
@@ -252,7 +252,7 @@ features
     border-top: 0px;
     height: 3px;
     width: 40px;
-    background-color: #CFE0BE;
+    background-color: #8484B6;
 }
 .wrap-item h3 {
     font-size: 24px;
@@ -344,7 +344,7 @@ ul.service-list li i
 }
 .service-item a
 {
-    color: #9AAC8A;
+    color: #BFDDE8;
 }
 .mr-btn-15
 {
@@ -358,7 +358,10 @@ ul.service-list li i
     margin: 0 auto 35px;
 }
 .portfolio-item
-
+{
+    position:relative;
+    overflow:hidden;
+}
 .portfolio-item figure
 {
     margin:0;
@@ -400,7 +403,7 @@ ul.service-list li i
     width:100%;
     height:100%;
     padding: 59px 30px;
-    background-color: #9AAC8A;
+    background-color: #BFDDE8;
     backface-visibility:hidden;
     -webkit-transform:rotateY(-180deg);
     -moz-transform:rotateY(-180deg);
@@ -437,7 +440,7 @@ TESTIMONIAL
     min-height: 390px;
 }
 .bg-testicolor{
-    background-color: #667857;
+    background-color: #8484B6;
     min-height: 390px;
     color: #fff;
     font-size: 18px;
@@ -455,7 +458,7 @@ TESTIMONIAL
 ************************************
 table*/
 .second{
-background-color: #CFE0BE;
+background-color: #bfdde8;
 }
 
 /*contact
@@ -463,27 +466,27 @@ background-color: #CFE0BE;
 ***********************************/
 #contact
 {
-    background-color: rgba(73, 84, 105, 0.8);
+    background-color: rgb(73, 84, 105);
 }
 .btn-submit, .btn-submit:hover, .btn-submit:focus
 {
     background-color: transparent;
     border-radius: 60px;
-    color: #CFE0BE;
+    color: #BFDDE8;
     font-weight: 400;
-    border: 1px solid #CFE0BE;
+    border: 1px solid #BFDDE8;
     font-size: 14px;
     padding: 6px 20px;
-    margin-top:1.5em;
 }
 .form-control
 {
     background-color: transparent;
     border-radius: 0px;
-    color: #CFE0BE !important;
+    color: #BFDDE8 !important;
+    border-color: #BFDDE8;
 }
 .form-control:focus {
-    border-color: #CFE0BE;
+    border-color: #BFDDE8;
     outline: 0;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
@@ -491,13 +494,7 @@ background-color: #CFE0BE;
 .contact-form input.form-control{
     color: #fff;
 }
-.checkbox{
-    color: #fff;
-     border-color: #CFE0BE;
-}
-.checkbox label{
-    font-weight: lighter;
-}
+
 .validation {
     color: red;
     display:none;
@@ -536,7 +533,7 @@ background-color: #CFE0BE;
 }
 .loction-info p i
 {
-    color: #9AAC8A;
+    color: #BFDDE8;
 }
 /***********************************
 ************************************
@@ -558,7 +555,7 @@ contact
     width: 42px;
     height: 42px;
     color: #ffffff;
-    background: #CFE0BE;
+    background: #BFDDE8;
     font-size: 14px;
     line-height: 42px;
     text-align: center;
@@ -571,7 +568,7 @@ contact
     background-color: #fff;
 }
 #footer a{
-    color: #667857;
+    color: #8484B6;
     font-weight: 400;
     padding: 15px;
 }
@@ -686,4 +683,5 @@ body{
 .navbar-default .navbar-nav > li > a{
     line-height: 22px;
     text-align: center;
+}
 }
