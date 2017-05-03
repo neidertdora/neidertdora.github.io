@@ -467,9 +467,9 @@ background-color: #bfdde8;
 }
 .btn-submit, .btn-submit:hover, .btn-submit:focus
 {
-    background-color: transparent;
+    background-color: #CFE0BE;
     border-radius: 60px;
-    color: #CFE0BE;
+    color: #8484b6;
     font-weight: 400;
     border: 1px solid #CFE0BE;
     font-size: 14px;
@@ -480,10 +480,10 @@ background-color: #bfdde8;
 {
     background-color: transparent;
     border-radius: 0px;
-    color: #CFE0BE !important;
+    color: #bfdde8 !important;
 }
 .form-control:focus {
-    border-color: #CFE0BE;
+    border-color: #bfdde8;
     outline: 0;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
