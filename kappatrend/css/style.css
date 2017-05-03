@@ -113,7 +113,7 @@ HEADER
 
 .logo-dec
 {
-    color: #9AAC8A;
+    color: #bfdde8;
 }
 .navbar-default .navbar-brand {
     color: #fff;
@@ -147,12 +147,12 @@ HEADER
     transition: color 0.2s ease-out;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: #9AAC8A;
+    color: #bfdde8;
     background-color: transparent;
 }
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
     background-color: transparent;
-    color: #9AAC8A;
+    color: #bfdde8;
 }
 .banner-info
 {
@@ -204,7 +204,7 @@ h2.bnr-sub-title
 
 .btn-download
 {
-    background-color: #667857;
+    background-color: #8484b6;
 }
 .btn-more, .btn-more:focus
 {
