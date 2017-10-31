@@ -66,11 +66,11 @@
   $mail = new PHPMailer;
   $mail->CharSet = 'UTF-8';
   $mail->isSMTP();
-  $mail->Host = getEnv('FEEDBACK_HOSTNAME');
+  $mail->Host = getEnv('smtp.gmail.com');
   if (!getenv('FEEDBACK_SKIP_AUTH')) {
     $mail->SMTPAuth = true;
-    $mail->Username = getenv('FEEDBACK_EMAIL');
-    $mail->Password = getenv('FEEDBACK_PASSWORD');
+    $mail->Username = getenv('neidert.dora@gmail.com');
+    $mail->Password = getenv('ujidok13');
   }
   if (getenv('FEEDBACK_ENCRYPTION') == 'TLS') {
     $mail->SMTPSecure = 'tls';
@@ -80,9 +80,9 @@
     $mail->Port = 465;
   }
 
-  $mail->Sender = getenv('FEEDBACK_EMAIL');
+  $mail->Sender = getenv('neidert.dora@gmail.com');
   $mail->setFrom($_POST['email'], $_POST['name']);
-  $mail->addAddress(getenv('FEEDBACK_EMAIL'));
+  $mail->addAddress(getenv('neidert.dora@gmail.com'));
 
   $mail->Subject = $_POST['reason'];
   $mail->Body  = $messageBody;
