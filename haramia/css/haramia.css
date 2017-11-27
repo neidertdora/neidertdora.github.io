@@ -35,6 +35,10 @@ body {
   text-align: center;
 }
 
+.kedvenc {
+  padding-left: 4em;
+}
+
 footer {
   margin-top: 3em;
 }
